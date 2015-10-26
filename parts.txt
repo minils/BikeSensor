@@ -1,0 +1,8 @@
+Pololu 3.3V 600mA Step-Down Spannungsregler D24V6F3
+Kondensator	100 µF 35 V
+Bosch BME280
+Gleichrichter B80C1500 RUND
+SMD 1/4W 100K :: SMD-Chip-Widerstand, Bauform 1206, 100 K-Ohm
+SMD-1812 100N :: Wima-SMD-Kondensator, Bauform 1812, 100nF
+RFD22301 (RFDuino)
+BL 1X10G 2,00

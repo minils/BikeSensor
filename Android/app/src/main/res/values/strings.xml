@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Bike Sensor</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="welcome">Welcome to the bikeSensor app!!</string>
+    <string name="log">LOG:</string>
+    <string name="btStatusOff">Bluetooth: OFF</string>
+    <string name="btStatusOn">Bluetooth: ON</string>
+    <string name="connectionYes">Status: connected</string>
+    <string name="connectionNo">Status: disconnected</string>
+    <string name="macAddress">MAC:</string>
+    <string name="dataCounter">Received %d packages.</string>
+
+</resources>

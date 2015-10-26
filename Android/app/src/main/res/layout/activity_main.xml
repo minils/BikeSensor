@@ -1,0 +1,52 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="0dp"
+    android:paddingRight="0dp"
+    android:paddingTop="0dp"
+    android:paddingBottom="0dp" tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="top"
+        android:layout_weight="5">
+
+        <TextView android:text="@string/welcome" android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/textStatus"
+            android:layout_margin="10dp" />
+        <TextView android:text="@string/btStatusOff" android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/textBTStatus"
+            android:layout_margin="10dp" />
+        <TextView android:text="@string/connectionNo" android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/textConnStatus"
+            android:layout_margin="10dp" />
+        <TextView android:text="@string/macAddress" android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/textMACStatus"
+            android:layout_margin="10dp" />
+        <TextView android:text="@string/dataCounter" android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/textDataStatus"
+            android:layout_margin="10dp" />
+
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/progressBar"
+            android:layout_gravity="left" />
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="10dp"
+        android:id="@+id/scrollView"
+        android:layout_weight="5">
+
+        <TextView android:text="@string/log" android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/textDisplay"/>
+
+    </ScrollView>
+
+</LinearLayout>

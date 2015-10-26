@@ -1,0 +1,12 @@
+CO Sensor
+http://davidhoulding.blogspot.de/2014/03/co-carbon-monoxide-gas-sensor-using.html
+https://www.sparkfun.com/products/9403
+
+Ozon Sensor
+http://www.ebay.de/itm/SainSmart-MQ131-Gas-Sensor-Ozone-Module-For-Arduino-UNO-Mega2560-R3-Raspberry-Pi-/221441549427?pt=LH_DefaultDomain_77&hash=item338ef1e473
+
+Spannungsregler
+MC34063A
+http://electronics.stackexchange.com/questions/97024/how-to-use-boost-step-up-converter-mc34063
+https://www.sparkfun.com/products/317
+http://www.nomad.ee/micros/mc34063a/index.shtml
